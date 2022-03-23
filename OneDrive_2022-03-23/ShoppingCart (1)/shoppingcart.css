@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+} 
+.navigation{
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px;
+  vertical-align:middle;
+  margin-right: 20px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+  background-color:rgb(236, 59, 142);
+  border: 1px solid rgb(236, 166, 205);
+}
+.navigation-bar{
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px ;
+  margin-right: 10px;
+  position:fixed;
+  left: 0px;
+  top:0px;
+  width: 100%;
+  z-index: 100;
+  background-color:rgb(236, 59, 142);
+  border: 1px solid rgb(236, 166, 205);
+}
+.containernav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  padding-bottom: 60px;
+  background-color: rgb(238, 197, 221);
+  
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  padding-bottom: 20px;
+  background-color: rgb(238, 197, 221);
+   
+}
+.containershop {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  padding-bottom: 0px;
+  background-color: rgb(252, 184, 240);
+   
+}
+.paragraph{
+  font-size: 8px;
+  color: rgb(235, 231, 226);
+}
+
+
+.menu{
+    display: flex;
+}
+.menu li a{
+   margin-right: 30px;
+    padding: 5px 20px;
+    color:rgb(48, 30, 78);
+    font-weight: 500;
+    opacity: 0.4;
+    transition: all ease 0.3s;
+}
+.menu .active{
+    opacity: 1;
+}
+.menu li a:hover{
+    opacity: 1;
+    transition: all ease 0.3s;
+}
+.logo{
+    font-style: normal;
+    font-size: 30px;
+    color:rgb(218, 239, 247);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    padding: 15px;
+    margin-right: 10px;
+
+}
+
+  .cart a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(243, 203, 203);
+    /* cursor: pointer; */
+    padding: 5px;
+    background-color: rgb(235, 11, 197);
+  }
+  
+  .cart span {
+    padding-left: 5px;
+  }
+ 
+  .image{
+    position: relative;
+    overflow: hidden;
+    margin: 40px;
+    transform:translate(5,30%);
+    background-color: rgb(209, 165, 196);
+  }
+  .image:hover{
+    border-radius: 10px;
+    
+  }
+  
+  .add-to-cart {
+    width: 35%;
+    background-color: rgb(232, 235, 243);
+    height: 30px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    border-width: 3px;
+    border-color: rgb(58, 97, 107);
+    transition: all ease 0.3s;
+    margin-left: 8%;
+    
+  }
+  .add-to-cart:hover{
+      border-radius: 10px;
+      background-color: rgba(136, 159, 233, 0.938);
+  }
+  
+  
+ 
+ .display-product{
+   text-align: center;
+   
+   
+
+ }
+ .box-size{
+   width: 300px;
+   height: auto;
+   margin-left: 0px;
+   margin-top: 200px;
+ 
+ }
+ .remove-but{
+  width: 44%;
+  background-color: rgb(232, 235, 243);
+  height: 30px;
+  opacity: 1;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  border-width: 3px;
+  border-color: rgb(64, 103, 119);
+  transition: all ease 0.3s;
+  margin:auto;
+  
+  
+ }
+ .remove-but:hover{
+   border-radius: 10px;
+   background-color: rgb(240, 144, 163);
+ }
+.letters{
+  color: rgb(100, 7, 119);
+}
